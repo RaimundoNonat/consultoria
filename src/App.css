@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+
+}
+
+body {
+    margin: 5% 30% 10% 30%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.menu {
+    background-color: #e9e2da;
+    border-color: transparent;
+    padding: 25%;
+    border-radius: 25px;
+}
+
+.menu h2 {
+    margin-bottom: 15%;
+    font-size: 30px;
+}
+
+.selec {
+    display: grid;
+    justify-content: center;
+    margin: 5%;
+}
+
+.selec input {
+    border-radius: 5px;
+    margin: 1%;
+    border-color: black;
+    padding: 2%;
+}
+
+.selec button {
+    margin: 3%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.selec button:active {
+    background-color: rgb(161, 150, 219);
+
+}
+
+.selec p {
+    margin-top: 30px;
+    color: black;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(161, 153, 153);
+
+}
+
+.selec p:active {
+    border-bottom: 1px solid rgb(161, 150, 219);
+    color: rgb(161, 150, 219);
+
+}
+
+
+@media (max-width: 1368px) {
+    body {
+        margin: 25% 30% 25% 30%;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        font-family: "Bitter", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .menu {
+        background-color: #e9e2da;
+        border-color: transparent;
+        padding: 15%;
+        border-radius: 25px;
+    }
+
+    .menu h2 {
+        margin-bottom: 15%;
+        font-size: 25px;
+    }
+
+    .selec {
+        display: grid;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .selec input {
+        border-radius: 5px;
+        margin: 1%;
+        border-color: black;
+        padding: 2%;
+    }
+
+    .selec button {
+        margin: 3%;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        border-color: transparent;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    .selec button:active {
+        background-color: rgb(161, 150, 219);
+    }
+
+    .selec p {
+        margin-top: 30px;
+        color: black;
+        cursor: pointer;
+        border-bottom: 1px solid rgb(161, 153, 153);
+    }
+
+    .selec p:active {
+        border-bottom: 1px solid rgb(161, 150, 219);
+        color: rgb(161, 150, 219);
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 25% 15% 25% 15%;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        font-family: "Bitter", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .menu {
+        background-color: #e9e2da;
+        border-color: transparent;
+        padding: 15%;
+        border-radius: 25px;
+    }
+
+    .menu h2 {
+        margin-bottom: 15%;
+        font-size: 25px;
+    }
+
+    .selec {
+        display: grid;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .selec input {
+        border-radius: 5px;
+        margin: 1%;
+        border-color: black;
+        padding: 2%;
+    }
+
+    .selec button {
+        margin: 3%;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        border-color: transparent;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    .selec button:active {
+        background-color: rgb(161, 150, 219);
+    }
+
+    .selec p {
+        margin-top: 30px;
+        color: black;
+        cursor: pointer;
+        border-bottom: 1px solid rgb(161, 153, 153);
+    }
+
+    .selec p:active {
+        border-bottom: 1px solid rgb(161, 150, 219);
+        color: rgb(161, 150, 219);
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        margin: 15% 5% 15% 5%;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        font-family: "Bitter", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .menu {
+        background-color: #e9e2da;
+        border-color: transparent;
+        padding: 15%;
+        border-radius: 20px;
+    }
+
+    .menu h2 {
+        margin-bottom: 15%;
+        font-size: 30px;
+    }
+
+    .selec {
+        display: grid;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .selec input {
+        border-radius: 5px;
+        margin: 1%;
+        border-color: black;
+        padding: 2%;
+    }
+
+    .selec button {
+        margin: 3%;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        border-color: transparent;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    .selec button:active {
+        background-color: rgb(161, 150, 219);
+    }
+
+    .selec p {
+        margin-top: 30px;
+        color: black;
+        cursor: pointer;
+        border-bottom: 1px solid rgb(161, 153, 153);
+    }
+
+    .selec p:active {
+        border-bottom: 1px solid rgb(161, 150, 219);
+        color: rgb(161, 150, 219);
+    }
+}
