@@ -13,7 +13,6 @@ function App() {
             <p>Esqueci minha senha</p>
           </div>  
       </div>
-      <h2>teste</h2>
     </div>
   );
 }
